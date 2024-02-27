@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid__container{
+    display: grid;
+    grid-gap: 1rem;
+    width: 100vw;
+    height: 80vh; 
+    background-color: white;
+    grid-template-rows: repeat(10 1fr); /* Considering the inspect's warning, it can be deleted. */
+    grid-template-columns: repeat(18 1fr); /* Considering the inspect's warning, it can be deleted. */
+    padding: 1rem;
+}
+
+.first{
+    background-color:#377D61;
+    grid-row: 1 / 4;
+    grid-column: 1 / 7;
+}
+
+.second{
+    background-color:#4C9150;
+    grid-row: 4 / 7;
+    grid-column: 1 / 7;
+}
+
+.third{
+    background-color:#8CB83D;
+    grid-row: 1 / 7;
+    grid-column: 7 / 13;
+}
+
+.forth{
+    background-color:#DDDF49;
+    grid-row: 1 / 3;
+    grid-column: 13 /19;
+}
+
+.fifth{
+    background-color:#EEEF55;
+    grid-row: 3 / 5;
+    grid-column: 13 /19;
+}
+
+.sixth{
+    background-color:#FFFF67;
+    grid-row: 5 / 7;
+    grid-column: 13 /19;
+}
+
+.seventh{
+    background-color:#69A443;
+    grid-row: 7 / 11;
+    grid-column: 1 / 7;
+}
+
+.eighth{
+    background-color:#B1CB40;
+    grid-row: 7 / 9;
+    grid-column: 7 / 10;
+}
+
+.nineth{
+    background-color:#C3D143;
+    grid-row: 9 / 11;
+    grid-column: 7 / 10;
+}
+
+.tenth{
+    background-color:#D5D746;
+    grid-row: 7 / 11;
+    grid-column: 10 / 16;
+}
+
+.eleventh{
+    background-color:#377D61;
+    grid-row: 7 / 11;
+    grid-column: 16 / 19;
+}
+
+.box{
+    height: 20vh;
+    background-color:#A3C0BC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    padding-left: 1rem;
+}
+
+
